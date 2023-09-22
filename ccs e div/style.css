@@ -1,0 +1,93 @@
+.marcar{
+    background-color: rgb(255, 255, 255);
+    color: blue;
+}
+body {
+    background-color: rgb(143, 133, 133);
+}
+
+#cabeçalho{
+    background-color: rgb(2, 255, 213);
+}
+
+
+#content{
+    background-color: rgb(217, 255, 0);
+    
+}
+
+#botton{
+
+}
+
+#principal{
+    display: flex;
+}
+
+.caixaigual {
+    background-color: bisque;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#caixa04{
+    background-color: aquamarine;
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#caixa05{
+    background-color: aquamarine;
+    height: 300px;
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#nhew{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: pink;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.caixaigual2{
+    background-color: darkgreen;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+#caixa044{
+    background-color: aquamarine;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+
+}
+
+#caixa055{
+    background-color: aquamarine;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+}
+
+#centro{
+    text-align: center;
+    font-size: 30px;
+}
+
+#caixacentralizada{
+    background-color: black;
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+    margin: auto;
+
+}
