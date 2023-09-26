@@ -1,0 +1,88 @@
+#container-top {
+    background-color: brown;
+    width: 800px;
+    height: 100px;
+    margin:auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+
+}
+
+.div-top{
+    background-color: darkorchid;
+    width: 50px;
+    height: 50px;
+    margin:10px;
+
+}
+
+#container-main{
+    background-color: rgb(4, 184, 255);
+    width: 800px;
+    height: 350px;
+    margin:auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.div-main{
+    background-color: rgb(217, 255, 4);
+    width: 50px;
+    height: 50px;
+    margin:auto;
+
+}
+
+#container-video{
+    background-color: darkorange;
+    width: 800px;
+    height: 500px;
+    margin:auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+
+}
+
+.div-video{
+    background-color: rgb(255, 4, 46);
+    width: 50px;
+    height: 50px;
+    margin:auto;
+
+}
+
+
+#container-footer{
+    background-color: rgb(90, 17, 226);
+    width: 800px;
+    height: 100px;
+    margin:auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.div-footer{
+    background-color: rgb(175, 239, 255);
+    width: 50px;
+    height: 50px;
+    margin:auto;
+}
