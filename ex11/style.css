@@ -1,0 +1,121 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+
+.container{
+    background-color: rgb(5, 138, 255);
+    width: 300px;
+    height: 150px;
+    padding: 15px; /*define uma distância interna entre um elemento e sua borda*/
+    margin: auto; /*bota no centro o container*/
+
+    display: flex; /*Dá aval para modificação dos elementos*/
+    flex-direction: row; /*os itens serão alinhados no eixo x*/
+    justify-content: center; /*alinhou os elementos para o meio da div*/
+    align-items: center;
+    align-content: center;
+}
+
+.item{
+    background-color: rgb(250, 11, 11);
+    width: 70px;
+    height: 70px;
+    margin: 5px; /*espaçamento entre os itens*/
+    padding: 15px;
+    border-radius: 5px; 
+}
+
+.class1{
+    order: 3;
+}
+
+.class2{
+    order: 1;
+}
+
+.class3{
+    order: 2;
+}
+
+.class1-grow{
+    order: 0;
+    flex-grow: 1;
+}
+
+.class2-grow{
+    order: 0;
+    flex-grow: 2;
+}
+
+.class3-grow{
+    order: 0;
+}
+
+.container-shrink{
+    background-color: rgb(5, 138, 255);
+    width: 300px;
+    padding: 15px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.class1-shrink{
+    order: 0;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.class2-shrink{
+    order: 0;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.class3-shrink{
+    order: 0;
+    flex-grow: 2;
+}
+
+.item-bases{
+    background-color: rgb(250, 11, 11);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+
+    flex-basis: 100px;
+}
+
+.item-self1{
+    background-color: rgba(220, 20, 60, 0.728);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    
+    flex-basis: 100px;
+    align-self: flex-start; /*colocou em cima como se fosse uma escada*/
+}
+
+.item-self2{
+    background-color: rgba(220, 20, 60, 0.728);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    
+    flex-basis: 100px;
+}
+
+.item-self3{
+    background-color: rgba(220, 20, 60, 0.728);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    
+    flex-basis: 100px;
+    align-self: flex-end; /*alinhou para baixo, assim formando uma escada, deslocado para o final do eixo transversal*/
+}
