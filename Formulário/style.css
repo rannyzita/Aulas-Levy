@@ -1,0 +1,70 @@
+#divgeral{
+    height: 97vh;
+    width: 97vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    width: 400px;
+    height: 400px;
+}
+
+
+input{
+    color: gray;
+}
+
+#color{
+    color: rgb(255, 187, 0);
+    
+}
+
+#login{
+    background-color: rgb(59, 89, 152);
+    height: 25px;
+    width: 300px;
+    border-radius: 30px;
+}
+
+.face{
+    text-align: center;
+    color: white;
+
+    padding: 3px;
+    
+}
+
+#txtemail{
+    width: 300px;
+    border-radius: 7px;
+}
+
+#txtsenha{
+    width: 300px;
+    border-radius: 7px;
+}
+
+#btnentrar{
+    width: 250px;
+    border-radius: 20px;
+
+}
+    
+p{
+    color: black;
+    text-align: center;
+}
+
+#txt-baixo{
+    color: rgb(247, 164, 40);
+}
+
